@@ -1,8 +1,9 @@
+#!/usr/bin/env/ node
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 const chalk = require('chalk');
-const shell = require('shell');
+const shell = require('shelljs');
 const yargs = require('yargs');
 
 // array of templates
